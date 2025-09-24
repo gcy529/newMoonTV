@@ -79,6 +79,23 @@
     "bdzy": {
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "name": "百度资源"
+   },
+    "xiaomaomi": {
+      "api": "https://zy.xmm.hk/api.php/provide/vod",
+      "name": "小猫咪资源",
+      "is_adult": false
+   },
+  "api_site": {
+    "regular_site": {
+      "api": "https://example.com/api.php/provide/vod",
+      "name": "常规影视站",
+      "is_adult": false
+    },
+    "adult_site": {
+      "api": "https://adult.example.com/api.php/provide/vod",
+      "name": "成人内容站",
+      "is_adult": true
     }
   }
+    
 }
